@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/helveticafortarget-bold');
+
+
+.heroMain{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.heroFirst{
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: center;
+  line-height: 70px;
+  align-items: center;
+  gap: 20px;
+  
+  >p{
+    margin: 0;
+  }
+}
+
+.heroText{
+  display: flex;
+  font-family: 'HelveticaforTarget-Bold', sans-serif;
+  font-size: 48px;
+  gap: 20px;
+  align-content: center;
+
+  >span{
+    color: #005AE2;
+  }
+}
+
+.lower{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 100px;
+  gap: 10px;
+
+  >p{
+    font-size: 18px;
+    line-height: 35px;
+    width: 750px;
+    text-align: center;
+    text-align-last: center;
+    font-family: 'HelveticaforTarget', sans-serif;
+    font-weight: lighter;
+  }
+}
+
+.lowerButtons{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 10px;
+
+}
+
+.overlap{
+  display: flex;
+
+}
+
+.bracketDash{
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  border-radius: 15px;
+  border: 0.5px solid;
+  width: fit-content;
+  gap: 20px;
+  margin-left: -100px;
+  padding: 40px 60px;
+  border-color: #005AE2;
+  background-color: #FEFEFE;
+
+  >p{
+    width: 384px;
+    text-align-last: center;
+    text-align: center;
+    text-align-last: center;
+    font-family: 'HelveticaforTarget', sans-serif;
+    font-weight: lighter;
+  }
+
+  >img{
+    width: 384px;
+  }
+}
+
+.heroEnd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  align-content: center;
+
+}
+
+.layDown{
+  display: flex;
+}
+
+.ellipse{
+  display: flex;
+  position: absolute;
+}

@@ -1,0 +1,69 @@
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerMain{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.leftFooter{
+  display: flex;
+  flex-direction: column;
+  gap: 35px
+}
+
+.logos{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0px 8px;
+}
+
+.footerRight{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  row-gap: 0px;
+  padding: 0px 15px 0px 15px;
+}
+
+.footerRightChildren{
+  font-size: 16px;
+  line-height: 26px;
+  >h3{
+    margin: 0;
+  }
+
+  >p{
+    margin: 0;
+  }
+
+}
+
+.lastLast{
+
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: end;
+
+  >p{
+    display: flex;
+
+
+  }
+
+}
+
+.logoStyle{
+  width: 24px;
+  font-size: 24px;
+
+}

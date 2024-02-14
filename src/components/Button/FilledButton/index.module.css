@@ -1,0 +1,9 @@
+
+.filledButton{
+  padding: 12px 24px;
+  background: #0065FE;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}

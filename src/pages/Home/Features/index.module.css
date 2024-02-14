@@ -1,0 +1,141 @@
+.FirstSectionMain{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.upperFirstSection{
+  display: flex;
+  gap: 120px;
+  background-color: #F9FBFD;
+  padding: 60px 140px;
+
+}
+
+.LeftUpperFirstSection{
+  display: flex;
+  margin: 0;
+
+  >p{
+
+    font-family: 'HelveticaforTarget-Bold', sans-serif;
+    font-size: 40px;
+    margin: 0;
+
+    >span{
+      color: #005AE2;
+    }
+  }
+}
+
+.RightUpperFirstSection{
+  display: flex;
+  gap: 72px;
+
+
+
+  >div {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4px;
+
+
+    >h3{
+      font-family: 'HelveticaforTarget', sans-serif;
+      margin: 0;
+      font-size: 32px;
+    }
+    
+    > p{
+
+      font-family: 'HelveticaforTarget', sans-serif;
+      width: 143px;
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+}
+
+
+
+.lowerFirstSection{
+  display: flex;
+  padding: 60px 140px;
+  gap: 96px;
+
+
+
+}
+
+.leftLowerFirstSection{
+  display: flex;
+  padding-left: 50px ;
+  flex-direction: column;
+  gap: 16px;
+
+  
+}
+
+.whyChoose{
+  font-family: 'HelveticaforTarget-Bold', sans-serif;
+  font-size: 40px;
+  line-height: 32px;
+  margin: 0;
+  padding-left: 10px;
+  border-left: 5px solid;
+  border-image: linear-gradient(to bottom, rgb(10, 10, 10) grey, rgb(252, 252, 253));
+
+  >span{
+    color: #005AE2;
+  }
+}
+
+.leftLowerSecond{
+  font-family: 'HelveticaforTarget', sans-serif;
+  font-size: 16px;
+  width: 370px;
+  padding-left: 15px;
+}
+
+.urlShortening{
+  font-size: 32px;
+  line-height: 28px;
+  font-family: 'HelveticaforTarget', sans-serif;
+  margin: 0;
+}
+
+.rightLowerSection{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 28px;
+
+
+}
+
+.scissors{
+  display: flex;
+  width: 39vh;
+  margin: 0;
+  font-family: 'HelveticaforTarget', sans-serif;
+}
+
+.subRight{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  >img{
+    width: 56px;
+  }
+}
+
+.subSubRight{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

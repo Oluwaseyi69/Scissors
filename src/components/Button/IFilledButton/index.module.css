@@ -1,0 +1,19 @@
+.iconFilledButton{
+    background: #0065FE;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+    >p{
+        font-size: 30px;
+        margin: 0px;
+    }
+
+}

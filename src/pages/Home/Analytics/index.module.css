@@ -1,0 +1,81 @@
+
+.mainThirdSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.thirdSection{
+
+  background-image: url('../../../assets/images/thirdSectionbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  padding: 80px;
+  width: 70%;
+  align-self: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 40px ;
+  border-radius: 12px;
+  background-color: white;
+  gap: 24px;
+
+  >div > p{
+    color: #3284FF;
+    font-size: 14px;
+    font-family: 'HelveticaforTarget', sans-serif;
+    line-height: 20px;
+
+    >span{
+      font: bold;
+      font-weight: 900;
+    }
+  }
+  
+}
+
+.input, .newInput{
+  display: flex;
+  border: 1px solid;
+  border-color: #3284FF;
+  width: 392px;
+  height: 55px;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-family: 'HelveticaforTarget', sans-serif;
+  font-size: 14px;
+
+  &::placeholder{
+    color: #3284FF;
+  }
+}
+
+.newInput{
+  width: 178px;
+  height: 48px;
+  
+}
+
+.newInput1{
+  width: 50%;
+  color: #3284FF;
+  border: 1px solid;
+  border-color: #3284FF;
+  font-family: 'HelveticaforTarget', sans-serif;
+  border-radius: 12px;
+  padding: 8px 12px;
+  background: none;
+}
+
+.innerForm{
+  display: flex;
+  gap: 20px
+}
